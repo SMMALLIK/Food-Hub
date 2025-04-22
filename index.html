@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <h2>Food HUB</h2>
+      <div class="inptSearch">
+        <input type="text" placeholder="Search Here..." id="SearchInp" onkeyup="Search()" />
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div class="menu-opt">
+        <i id="User" class="fa-solid fa-user"></i>
+        <i id="Bar" class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+    <!-- -----------------Menu and form  -->
+    <div class="loginForm">
+      <h3>Login</h3>
+      <input type="text" name="" id="LoginName" placeholder="Enter your name" />
+      <input
+        type="password"
+        name=""
+        id="LoginPass"
+        placeholder="Enter your password"
+      />
+      <button id="LogIn">Log In</button>
+    </div>
+    <div class="menuBar">
+      <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Food">Foods</a></li>
+        <li><a href="#Blogs">Blogs</a></li>
+        <li><a href="#Customers">Customer</a></li>
+      </ul>
+    </div>
+    <!-- -------------------------Main  -->
+    <div class="main" id="Home">
+      <div class="main1">
+        <h1>Simply & Tasty <br />Recipes</h1>
+        <span
+          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+          quidem doloremque corrupti ab tempora, voluptate, non quo
+          perspiciatis, eum officia nihil voluptatem. Reprehenderit maxime
+          consectetur dignissimos ut esse nulla dolore!</span
+        >
+        <a href="">Explore Now</a>
+      </div>
+      <div class="main2">
+        <img src="/images/burger (2).png" alt="" />
+      </div>
+    </div>
+    <!-- ---------------------Our Food -->
+    <table>
+      <tr>
+        <td>
+          <div class="our-food" id="Food">
+            <h2>Our <span>Foods</span></h2>
+            <div class="foods">
+              <div class="food-card">
+                <img src="/images/fds (1).jpg" alt="" />
+                <h3>299 Rupess Only</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Minus, quasi?
+                </p>
+                <button>Order Now</button>
+              </div>
+              <div class="food-card">
+                <img src="/images/fds (2).jpg" alt="" />
+                <h3>299 Rupess Only</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Minus, quasi?
+                </p>
+                <button>Order Now</button>
+              </div>
+              <div class="food-card">
+                <img src="/images/fds (4).jpg" alt="" />
+                <h3>299 Rupess Only</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Minus, quasi?
+                </p>
+                <button>Order Now</button>
+              </div>
+              <div class="food-card">
+                <img src="/images/fds (5).jpg" alt="" />
+                <h3>299 Rupess Only</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Minus, quasi?
+                </p>
+                <button>Order Now</button>
+              </div>
+              <div class="food-card">
+                <img src="/images/fds (6).jpg" alt="" />
+                <h3>299 Rupess Only</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Minus, quasi?
+                </p>
+                <button>Order Now</button>
+              </div>
+              <div class="food-card">
+                <img src="/images/fds (7).jpg" alt="" />
+                <h3>299 Rupess Only</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Minus, quasi?
+                </p>
+                <button>Order Now</button>
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <!-- ---------------------Read our Food blog-->
+      <tr>
+        <td>
+          <div class="read-foodBlog" id="Blogs">
+            <h2>Read Our <span>Blogs</span></h2>
+            <div class="read-food">
+              <div class="foodBlog-card">
+                <img src="/images/food1.jfif" alt="" />
+                <h3>Fact About Indian Food</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Minus, quasi?
+                </p>
+                <button>
+                  <a href="https://ministryofcurry.com/">Read More</a>
+                </button>
+              </div>
+              <div class="foodBlog-card">
+                <img src="/images/food2.jfif" alt="" />
+                <h3>Different Type of Burgers</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Minus, quasi?
+                </p>
+                <button>
+                  <a href="https://theburgerbloggersite.wordpress.com/"
+                    >Read More</a
+                  >
+                </button>
+              </div>
+              <div class="foodBlog-card">
+                <img src="/images/food3.jfif" alt="" />
+                <h3>Delicious Chicken Recipes</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Minus, quasi?
+                </p>
+                <button>
+                  <a
+                    href="https://ministryofcurry.com/recipes/main-dishes/chicken-dishes/"
+                    >Read More</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <!-- -------------------------Customer Review -->
+      <tr>
+        <td>
+          <div class="cust-review" id="Customers">
+            <h2>Customer <span>Review</span></h2>
+            <div class="cust-box">
+              <div class="cust-detail">
+                <img src="/images/men (1).jpg" alt="" />
+                <div class="start">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                  voluptate amet iste ipsum consequuntur magnam quam eaque
+                  molestiae!
+                </p>
+              </div>
+              <div class="cust-detail">
+                <img src="/images/men (2).jpg" alt="" />
+                <div class="start">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                  voluptate amet iste ipsum consequuntur magnam quam eaque
+                  molestiae!
+                </p>
+              </div>
+              <div class="cust-detail">
+                <img src="/images/men (3).jpg" alt="" />
+                <div class="start">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                  voluptate amet iste ipsum consequuntur magnam quam eaque
+                  molestiae!
+                </p>
+              </div>
+            </div>
+            <div class="btn">
+              <button onclick="Prev()">Prev</button>
+              <button onclick="Next()">Next</button>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <!-- --------------------Footer -->
+    <footer>
+      <div class="about-us footer-list">
+        <h3>About Us</h3>
+        <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+        <span>Career</span>
+        <span>Blogs</span>
+        <span>Service</span>
+      </div>
+      <div class="footer-list">
+        <h3>Product</h3>
+        <span>Team</span>
+        <span>Career</span>
+        <span>Blogs</span>
+        <span>Service</span>
+      </div>
+      <div class="footer-list">
+        <h3>Our Food</h3>
+        <span>Team</span>
+        <span>Career</span>
+        <span>Blogs</span>
+        <span>Service</span>
+      </div>
+      <div class="footer-list">
+        <h3>Services</h3>
+        <span>Team</span>
+        <span>Career</span>
+        <span>Blogs</span>
+        <span>Service</span>
+      </div>
+    </footer>
+
+    <script src="food.js"></script>
+  </body>
+</html>
